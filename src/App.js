@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-
+import Clic from './Clic';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <Button onClick={() => console.log("Clicky!")}>Test</Button>
+          <Clic/>
       </header>
     </div>
   );
