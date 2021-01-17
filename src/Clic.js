@@ -2,8 +2,8 @@ import {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 
 function Clic(){
-
-    const [compteur, setCompteur] = useState(0);
+    let cpt=0;
+    const [compteur, setCompteur] = useState(cpt);
 
     return (
         <div>
