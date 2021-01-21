@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 
-function Clic2(){
+function Clicker(){
     let cpt=0;
     const [compteur, setCompteur] = useState(cpt);
 
@@ -15,4 +15,4 @@ function Clic2(){
     );
 }
 
-export default Clic2;
+export default Clicker;
