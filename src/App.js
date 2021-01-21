@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-//import Clic from './Clic';
-import Clicker from './Clicker';
+ import Clicker from './Clicker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
